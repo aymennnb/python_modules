@@ -15,21 +15,21 @@ class Person:
         print(f"{prompt} {title} {name} - {message}")
 
 
-# person1 = Person("Aymen", 20)
-# person2 = Person("Amine", 22)
-#
-# print("Le contenu des Instances de la Classe Person")
-# print(person1.name, 'is', person1.age)
-# print(person2.name, 'is', person2.age)
-#
-# print("Afficher en utilisant la méthode birthday()")
-# person1.birthday()
-# person2.birthday()
-#
-# person1.greeter("Aymen", "Mr", "Hello", "Have a good day!")
-# person2.greeter("Amine")
-#
-# del person2
+person1 = Person("Aymen", 20)
+person2 = Person("Amine", 22)
+
+print("Le contenu des Instances de la Classe Person")
+print(person1.name, 'is', person1.age)
+print(person2.name, 'is', person2.age)
+
+print("Afficher en utilisant la méthode birthday()")
+person1.birthday()
+person2.birthday()
+
+person1.greeter("Aymen", "Mr", "Hello", "Have a good day!")
+person2.greeter("Amine")
+
+del person2
 
 
 class Sport_car:
@@ -54,23 +54,23 @@ class Sport_car:
 # print(car4)
 
 
-class Rectangle:
-    def __init__(self, length, width):
-        self.length = length
-        self.width = width
-
-    def area(self):
-        return self.length * self.width
-
-    def perimetre(self):
-        return 2 * (self.length + self.width)
-
-    def __str__(self):
-        return (f"Rectangle (Length = {self.length}, Width = {self.width}) leur area est {self.area()} et leur perimetre est {self.perimetre()}")
-
-
-rectangle1 = Rectangle(10, 5)
-rectangle2 = Rectangle(7, 3)
-
-print(rectangle1)
-print(rectangle2)
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+#
+#     def area(self):
+#         return self.length * self.width
+#
+#     def perimetre(self):
+#         return 2 * (self.length + self.width)
+#
+#     def __str__(self):
+#         return (f"Rectangle (Length = {self.length}, Width = {self.width}) leur area est {self.area()} et leur perimetre est {self.perimetre()}")
+#
+#
+# rectangle1 = Rectangle(10, 5)
+# rectangle2 = Rectangle(7, 3)
+#
+# print(rectangle1)
+# print(rectangle2)
